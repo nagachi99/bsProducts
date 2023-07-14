@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*-------------------------
+  初期値
+-------------------------*/
+:root{
+  --key-color: #8e44ad;
+  --sub-color: 	#7e349d;
+}
+body{
+  padding-top: 100px;
+  scroll-behavior: smooth;
+  padding-top: 72px;
+}
+ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+/*-------------------------
+  トップ
+-------------------------*/
+.topics p{
+  text-align: justify;
+}
+.btn-primary{
+  background-color: var(--key-color);
+  border: 1px 実線 var(--key-color);
+}
+.btn-primary:hover{
+  background-color:var(--sub-color);
+  border:  1px solid var(--sub-color);
+}
+.topics .col-lg-4 {
+  /* ドロップダウンメニューに隠れないよう表示位置を変更 */
+  scroll-margin-top: 50vw;
+}
